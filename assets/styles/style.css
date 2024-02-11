@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+}
+.carousel-inner img {
+    width: 50%;
+  }
+.image{
+    display: flex;
+}
+.navbar {
+    background-color: #feee00;
+}
+#nav1 {  
+        color: #000;
+        margin: 0%;
+        padding: 0%;
+}
+
+li {
+    list-style-type: none;
+  }

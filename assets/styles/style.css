@@ -1,8 +1,9 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
+
 #container{
     display: flex;
     margin: 0%;
@@ -16,6 +17,7 @@
 }
 .navbar {
     background-color: #feee00;
+    margin-bottom: 0%; 
 }
 #nav1 {  
         color: #000;
@@ -23,6 +25,21 @@
         padding: 0%;
 }
 
-li {
-    list-style-type: none;
-  }
+.text-blue {
+    color: #0000ff;
+}
+.nav2{
+    display: inline;
+    justify-content: space-between;
+    padding: 4px;;
+    color: #000;
+}
+
+.nav3{
+    display: flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
